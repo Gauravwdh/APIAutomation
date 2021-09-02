@@ -11,4 +11,11 @@ public class APIAutomation {
     int y = 2;
     Assert.assertEquals(4, x + y);
   }
+
+  @Test
+  public void test_sub() {
+    int x = 3;
+    int y = 1;
+    Assert.assertEquals(2, x - y);
+  }
 }
